@@ -16,3 +16,13 @@ Como o principal diferencial do ateliê é a personalização dos produtos, o si
 Para controle financeiro, o sistema registrará os pagamentos realizados pelos clientes. Cada pagamento possuirá um código identificador, forma de pagamento, data do pagamento, valor pago e situação do pagamento. Cada pedido estará associado a um pagamento, permitindo controlar pedidos pagos, pendentes ou cancelados.
 Além das informações armazenadas diretamente no banco de dados, o sistema deverá permitir calcular automaticamente a idade dos clientes a partir de sua data de nascimento e o valor total de cada pedido com base nos produtos e personalizações vinculados a ele.
 O objetivo do sistema é modernizar a gestão do Débora Patarelo Ateliê, proporcionando maior organização dos dados, melhor controle dos pedidos e suporte ao crescimento futuro da empresa.
+
+ ## Modelagem Conceitual
+ Diagrama Entidade-Relacionamento , identificando entidades,atributos e relacionamentos assim como a cardinalidade entre elas.
+
+<img width="5008" height="3364" alt="image" src="https://github.com/user-attachments/assets/bfdf68d0-36aa-4512-ad65-effa7b26e3bb" />
+
+
+
+
+
