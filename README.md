@@ -27,6 +27,10 @@ Após a conclusão da Modelo DER, foram convertidas tabelas identificando as cha
 
 <img width="5832" height="3784" alt="image" src="https://github.com/user-attachments/assets/9a61c0c9-feb4-42bf-acc4-fc47577d39a3" />
 
+## Usando PostgreeSQL no SUPABASE
+Criando as tabelas
+
+<img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/2cc39477-3317-4530-91a9-bee0d85c0ec4" />
 
 
 
