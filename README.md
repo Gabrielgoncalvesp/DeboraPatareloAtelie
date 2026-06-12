@@ -22,6 +22,12 @@ O objetivo do sistema é modernizar a gestão do Débora Patarelo Ateliê, propo
 
 <img width="5008" height="3364" alt="image" src="https://github.com/user-attachments/assets/bfdf68d0-36aa-4512-ad65-effa7b26e3bb" />
 
+## Modelo Lógico
+Após a conclusão da Modelo DER, foram convertidas tabelas identificando as chaves primárias (PKs)  e as chaves estrangeiras (FKs)
+
+<img width="5832" height="3784" alt="image" src="https://github.com/user-attachments/assets/9a61c0c9-feb4-42bf-acc4-fc47577d39a3" />
+
+
 
 
 
