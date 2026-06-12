@@ -32,6 +32,11 @@ Criando as tabelas
 
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/2cc39477-3317-4530-91a9-bee0d85c0ec4" />
 
+## Preenchendo as tabelas com dados fictícios
+
+<img width="1907" height="1198" alt="image" src="https://github.com/user-attachments/assets/13c255b0-79d7-4759-a782-3ca2d11d954f" />
+
+
 
 
 
