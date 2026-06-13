@@ -37,3 +37,12 @@ FROM ateliedb.item_pedido ip
 JOIN ateliedb.produto pr ON ip.cod_prod = pr.cod_prod
 WHERE ip.qtd_item >= 2
 ORDER BY ip.subtotal DESC;
+
+-- Relaciomento tabela cliente e telefone_cliente
+-- Um cliente pode ter um ou mais telefones  e um telefone so pode estar associado a um cliente
+SELECT c.nome, c.email, t.telefone
+FROM ateliedb.cliente c
+JOIN ateliedb.telefone_cliente t ON c.cod_cliente = t.cod_cliente
+WHERE c.cidade = 'Franca'
+ORDER BY c.nome;
+
