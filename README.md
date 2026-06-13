@@ -23,11 +23,11 @@ O objetivo do sistema é modernizar a gestão do Débora Patarelo Ateliê, propo
 <img width="5008" height="3364" alt="image" src="https://github.com/user-attachments/assets/bfdf68d0-36aa-4512-ad65-effa7b26e3bb" />
 
 ## Modelo Lógico
-Após a conclusão da Modelo DER, foram convertidas tabelas identificando as chaves primárias (PKs)  e as chaves estrangeiras (FKs)
+Após a conclusão do Modelo DER, foram convertidas tabelas identificando as chaves primárias (PKs)  e as chaves estrangeiras (FKs)
 
 <img width="5832" height="3784" alt="image" src="https://github.com/user-attachments/assets/9a61c0c9-feb4-42bf-acc4-fc47577d39a3" />
 
-## Usando PostgreeSQL no SUPABASE
+## Usando PostgreSQL no SUPABASE
 Criando as tabelas
 
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/2cc39477-3317-4530-91a9-bee0d85c0ec4" />
@@ -37,11 +37,11 @@ Criando as tabelas
 <img width="1907" height="1198" alt="image" src="https://github.com/user-attachments/assets/13c255b0-79d7-4759-a782-3ca2d11d954f" />
 
 ## Utilizando as operações do CRUD
-Primeiro usei o CREATE para criar o cliente "Marcos Vinicius" no banco, depois utilizei o READ para ver o cliente ja cadastrado e com o UPDATE adicionei mais um email para ele.
+Primeiro usei o CREATE para criar o cliente "Marcos Vinicius" no banco, depois utilizei o READ para ver o cliente já cadastrado e com o UPDATE adicionei mais um email para ele.
 
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/65d78534-c116-47dd-bb81-38316aab5ae3" />
 
-Depois utilizando o DELETE, deletei o cliente  e utilizando o READ novamente para ver se a operação foi feita com sucesso.
+Depois utilizando o DELETE, excluí o cliente  e utilizando o READ novamente para ver se a operação foi feita com sucesso.
 
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/14aace23-fabf-49d1-9738-70fc145746d8" />
 
