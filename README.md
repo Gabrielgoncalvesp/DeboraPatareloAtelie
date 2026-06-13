@@ -50,30 +50,31 @@ Depois utilizando o DELETE, excluí o cliente  e utilizando o READ novamente par
 <img width="1915" height="1198" alt="image" src="https://github.com/user-attachments/assets/19b56930-4ceb-497f-8e31-6d9f1cb8e43f" />
 
 
+## Consulta realizada para demonstrar o relacionamento entre as tabelas produto e categoria, exibindo os produtos disponíveis cadastrados no sistema e suas respectivas categorias, com os resultados ordenados para melhor visualização.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/aaaac221-85cc-42af-a2bb-8ace099f63ec" />
 
-
+## Consulta que evidencia o relacionamento entre cliente, pedido e pagamento, apresentando os pedidos pagos cadastrados no sistema e seus respectivos valores.
 <img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/4b084bda-34b6-4ea0-8bcc-aa240bbdb20a" />
 
-
+## Consulta que evidencia o relacionamento entre produto e item_pedido, apresentando os produtos incluídos nos pedidos, suas quantidades vendidas e os respectivos valores totais.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/315a199e-5fd5-4573-96b2-77f11a91cd85" />
 
-
+## Consulta que evidencia o relacionamento entre cliente e telefone_cliente, apresentando os clientes da cidade de Franca e seus respectivos números de telefone cadastrados no sistema.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/656dc927-8c83-417c-a90c-c885ceb2516e" />
 
-
+## Consulta que evidencia o relacionamento entre cliente, pedido e pagamento, apresentando informações dos pedidos não cancelados e seus respectivos pagamentos registrados no sistema.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/72c5dccf-0548-448c-9e2a-5952fe9f0bc1" />
 
-
+## Consulta que evidencia o relacionamento entre categoria, produto e item_pedido, apresentando os produtos comercializados em cada categoria e seus respectivos subtotais de venda.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/0594a583-372f-4609-9ac4-fe9a5642de1b" />
 
-
+## Consulta que evidencia o relacionamento entre cliente e pedido, apresentando os pedidos realizados por clientes de outras cidades e seus respectivos status.
 <img width="1918" height="1197" alt="image" src="https://github.com/user-attachments/assets/8c58802d-9503-49c5-8e7b-a39e77f44fc6" />
 
-
+## Consulta que evidencia o relacionamento entre categoria e produto, apresentando os produtos com baixo estoque e suas respectivas categorias cadastradas no sistema.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/0b03c567-43aa-4dc0-b19d-00eeca9b37f6" />
 
-
+## Consulta que evidencia os relacionamentos entre cliente, pedido, item_pedido, produto e pagamento, apresentando informações completas sobre as vendas realizadas e seus respectivos pagamentos.
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/ff09d937-b5b1-4f3d-91be-f70494086b69" />
 
 
