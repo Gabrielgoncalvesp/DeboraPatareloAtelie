@@ -36,6 +36,17 @@ Criando as tabelas
 
 <img width="1907" height="1198" alt="image" src="https://github.com/user-attachments/assets/13c255b0-79d7-4759-a782-3ca2d11d954f" />
 
+## Utilizando as operações do CRUD
+Primeiro usei o CREATE para criar o cliente "Marcos Vinicius" no banco, depois utilizei o READ para ver o cliente ja cadastrado e com o UPDATE adicionei mais um email para ele.
+
+<img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/65d78534-c116-47dd-bb81-38316aab5ae3" />
+
+Depois utilizando o DELETE, deletei o cliente  e utilizando o READ novamente para ver se a operação foi feita com sucesso.
+
+<img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/14aace23-fabf-49d1-9738-70fc145746d8" />
+
+
+
 
 
 
