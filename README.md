@@ -45,6 +45,11 @@ Depois utilizando o DELETE, deletei o cliente  e utilizando o READ novamente par
 
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/14aace23-fabf-49d1-9738-70fc145746d8" />
 
+## Criando consultas no banco, utilizando SELECT, WHERE e ORDER BY, evidenciando os relacionamentos entre as tabelas
+
+<img width="1915" height="1198" alt="image" src="https://github.com/user-attachments/assets/19b56930-4ceb-497f-8e31-6d9f1cb8e43f" />
+
+
 
 
 
