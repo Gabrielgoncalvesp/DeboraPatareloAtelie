@@ -88,3 +88,18 @@ JOIN ateliedb.categoria cat ON pr.cod_cat = cat.cod_cat
 WHERE pr.estoque <= 5
 ORDER BY pr.estoque ASC;
 
+-- Relacionamento tabela cliente, pedido, item_pedido, produto e pagamento
+-- Um cliente pode realizar um ou mais pedidos e cada pedido pertence a apenas um cliente.
+-- Um pedido pode possuir um ou mais itens de pedido e cada item de pedido pertence a apenas um pedido.
+-- Um produto pode aparecer em um ou mais itens de pedido e cada item de pedido está associado a apenas um produto.
+-- Cada pedido possui um único pagamento e cada pagamento está associado a apenas um pedido.
+
+SELECT c.nome AS cliente, p.cod_pedido, pr.nome AS produto, ip.qtd_item, ip.subtotal, pg.forma_pgto
+FROM ateliedb.cliente c
+JOIN ateliedb.pedido p ON c.cod_cliente = p.cod_cliente
+JOIN ateliedb.item_pedido ip ON p.cod_pedido = ip.cod_pedido
+JOIN ateliedb.produto pr ON ip.cod_prod = pr.cod_prod
+JOIN ateliedb.pagamento pg ON p.cod_pedido = pg.cod_pedido
+WHERE pg.status_pgto = 'PAGO'
+ORDER BY c.nome, p.cod_pedido;
+
