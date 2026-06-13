@@ -68,3 +68,13 @@ JOIN ateliedb.categoria cat ON pr.cod_cat = cat.cod_cat
 WHERE ip.subtotal > 100
 ORDER BY cat.nome_cat, ip.subtotal DESC;
 
+-- Relacionamento tabela cliente e pedido
+-- Um cliente pode realizar um ou mais pedidos e cada pedido pertence a apenas um cliente.
+-- Mostrando pedidos de clientes que moram em outras cidades além de Franca.
+
+SELECT c.nome, c.cidade, p.cod_pedido, p.data_pedido, p.status_pedido
+FROM ateliedb.cliente c
+JOIN ateliedb.pedido p ON c.cod_cliente = p.cod_cliente
+WHERE c.cidade <> 'Franca'
+ORDER BY c.cidade, p.data_pedido;
+
