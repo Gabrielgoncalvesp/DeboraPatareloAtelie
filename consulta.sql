@@ -19,3 +19,13 @@ FROM ateliedb.produto pr
 JOIN ateliedb.categoria cat ON pr.cod_cat = cat.cod_cat
 WHERE pr.status = 'DISPONIVEL'
 ORDER BY cat.nome_cat, pr.nome;
+
+-- Relaciomento tabela pedido e pagamento
+-- Um pedido possui um tipo de pagamento
+-- Mostrando pedidos com status de "PAGO"
+SELECT p.cod_pedido, c.nome, pg.forma_pgto, pg.valor_pg, pg.status_pgto
+FROM ateliedb.pedido p
+JOIN ateliedb.cliente c ON p.cod_cliente = c.cod_cliente
+JOIN ateliedb.pagamento pg ON p.cod_pedido = pg.cod_pedido
+WHERE pg.status_pgto = 'PAGO'
+ORDER BY pg.valor_pg DESC;
