@@ -46,3 +46,14 @@ JOIN ateliedb.telefone_cliente t ON c.cod_cliente = t.cod_cliente
 WHERE c.cidade = 'Franca'
 ORDER BY c.nome;
 
+-- Relacionamento tabela cliente, pedido e pagamento
+-- Um cliente pode realizar um ou mais pedidos e um pedido pertence a apenas um cliente.
+-- Cada pedido possui um único pagamento e cada pagamento está associado a apenas um pedido.
+
+SELECT p.cod_pedido, c.nome, p.status_pedido, pg.status_pgto, pg.valor_pg
+FROM ateliedb.pedido p
+JOIN ateliedb.cliente c ON p.cod_cliente = c.cod_cliente
+JOIN ateliedb.pagamento pg ON p.cod_pedido = pg.cod_pedido
+WHERE p.status_pedido <> 'CANCELADO'
+ORDER BY p.cod_pedido;
+
