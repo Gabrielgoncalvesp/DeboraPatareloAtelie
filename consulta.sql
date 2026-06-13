@@ -29,3 +29,11 @@ JOIN ateliedb.cliente c ON p.cod_cliente = c.cod_cliente
 JOIN ateliedb.pagamento pg ON p.cod_pedido = pg.cod_pedido
 WHERE pg.status_pgto = 'PAGO'
 ORDER BY pg.valor_pg DESC;
+
+-- Relaciomento tabela item_pedido e produtos
+-- Um produto pode aparecer em vários item_pedido e um item_pedido pertence a apenas um produto
+SELECT ip.cod_pedido, pr.nome AS produto, ip.qtd_item, ip.valor_uni, ip.subtotal
+FROM ateliedb.item_pedido ip
+JOIN ateliedb.produto pr ON ip.cod_prod = pr.cod_prod
+WHERE ip.qtd_item >= 2
+ORDER BY ip.subtotal DESC;
