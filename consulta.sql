@@ -78,3 +78,13 @@ JOIN ateliedb.pedido p ON c.cod_cliente = p.cod_cliente
 WHERE c.cidade <> 'Franca'
 ORDER BY c.cidade, p.data_pedido;
 
+-- Relacionamento tabela categoria e produto
+-- Uma categoria pode possuir um ou mais produtos e cada produto pertence a apenas uma categoria.
+-- Mostrando quais produtos estão com estoque baixo e podem precisar de reposição.
+
+SELECT cat.nome_cat, pr.nome, pr.estoque, pr.status
+FROM ateliedb.produto pr
+JOIN ateliedb.categoria cat ON pr.cod_cat = cat.cod_cat
+WHERE pr.estoque <= 5
+ORDER BY pr.estoque ASC;
+
