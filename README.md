@@ -65,6 +65,10 @@ Depois utilizando o DELETE, deletei o cliente  e utilizando o READ novamente par
 <img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/72c5dccf-0548-448c-9e2a-5952fe9f0bc1" />
 
 
+<img width="1918" height="1198" alt="image" src="https://github.com/user-attachments/assets/0594a583-372f-4609-9ac4-fe9a5642de1b" />
+
+
+
 
 
 
