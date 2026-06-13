@@ -57,3 +57,14 @@ JOIN ateliedb.pagamento pg ON p.cod_pedido = pg.cod_pedido
 WHERE p.status_pedido <> 'CANCELADO'
 ORDER BY p.cod_pedido;
 
+-- Relacionamento tabela categoria, produto e item_pedido
+-- Uma categoria pode possuir um ou mais produtos e um produto pertence a apenas uma categoria.
+-- Um produto pode aparecer em um ou mais itens de pedido e cada item de pedido está associado a apenas um produto.
+
+SELECT cat.nome_cat, pr.nome AS produto, ip.qtd_item, ip.subtotal
+FROM ateliedb.item_pedido ip
+JOIN ateliedb.produto pr ON ip.cod_prod = pr.cod_prod
+JOIN ateliedb.categoria cat ON pr.cod_cat = cat.cod_cat
+WHERE ip.subtotal > 100
+ORDER BY cat.nome_cat, ip.subtotal DESC;
+
